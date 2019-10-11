@@ -1,0 +1,141 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#page 1\n",
+    "\n",
+    "#1 -> Boolean\n",
+    "#2 -> float\n",
+    "#3 -> string\n",
+    "#4 -> integer\n",
+    "#5 -> string\n",
+    "#6 -> integer\n",
+    "#7 -> string\n",
+    "#8 -> Boolean\n",
+    "#9 -> string\n",
+    "\n",
+    "\n",
+    "#page 2\n",
+    "\n",
+    "#1 -> False\n",
+    "#2 -> True\n",
+    "#3 -> True\n",
+    "#4 -> False\n",
+    "#5 -> False\n",
+    "\n",
+    "\n",
+    "#page 3\n",
+    "\n",
+    "#1 -> 10 9 8 7 6 5 4 \n",
+    "#2 -> 0 1 2 3 4\n",
+    "#3 -> 10 9 8 7\n",
+    "#4 -> letter #0 is S\n",
+    "    # letter #1 is n\n",
+    "    # letter #2 is o\n",
+    "    # letter #3 is w\n",
+    "    # letter #4 is !\n",
+    "    \n",
+    "    \n",
+    "# page 4\n",
+    "\n",
+    "#1 -> n   i\n",
+    "    # 10  10\n",
+    "    # 10  5.0\n",
+    "    # 10  6.0\n",
+    "    # 10  3.0\n",
+    "    # 10  4.0\n",
+    "    # 10  2.0\n",
+    "    # 10  1.0\n",
+    "    # 10  2.0\n",
+    "    # 10  1.0\n",
+    "    # 10  2.0\n",
+    "    # and so on\n",
+    "#2 -> First of all, the definition of n is useless. He probably was wanting to show a repitation of 1 and 2.\n",
+    "# He needs to put a break in there to stop it\n",
+    "\n",
+    "# page 5 \n",
+    "\n",
+    "#1 -> No way\n",
+    "#2 -> No thanks, I can find something better\n",
+    "#3 -> I'll take it!\n",
+    "#4 -> So long, suckers! I'll take it!\n",
+    "#5 -> No thanks, I can find something better\n",
+    "\n",
+    "# page 6 \n",
+    "\n",
+    "#1 -> int2 does not match int_2. Fix by changing int2 to int_2\n",
+    "#2 -> the variables aren't defined. Fix by putting a float input and a different variable name (to avoid confusion)\n",
+    "#3 -> the second part of the code is complete gibber jabber. Fix shown in my version of the code\n",
+    "#4 -> print doesn't have parentheses, plus it is printing nothing useful if it were to print\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# page 6 code\n",
+    "\n",
+    "def quotient(int_1, int_2):\n",
+    "    return (int_1//int_2, int_1%int_2)\n",
+    "\n",
+    "int_1a = float(input('int_1 is: '))\n",
+    "int_2a = float(input('int_2 is: '))\n",
+    "\n",
+    "print(quotient(int_1a, int_2a))\n",
+    "\n",
+    "def large_num(a):\n",
+    "    if A > 10000:\n",
+    "        return True\n",
+    "    else:\n",
+    "        return False\n",
+    "\n",
+    "A = float(input('large_number is: '))\n",
+    "\n",
+    "print(large_num(A))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
